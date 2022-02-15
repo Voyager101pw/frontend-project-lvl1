@@ -13,4 +13,5 @@ make install
 
 ```sh
 https://asciinema.org/a/Noak6ySDyBWMfyMSNh3sdvSWK (brain-even)
+https://asciinema.org/a/FXzTX3qOyH1ErXWlKNbGzZ9Do (brain-calc)
 ```
