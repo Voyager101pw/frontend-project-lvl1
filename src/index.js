@@ -9,7 +9,7 @@ export default (gameDescription, generationQA, numberOfQuestions = 3) => {
     const [question, correctAnswer] = generationQA();
 
     console.log(`Question: ${question}`);
-    const userAnswer = Number(readlineSync.question('Your answer: '));
+    const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);

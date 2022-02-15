@@ -9,13 +9,13 @@ export default () => {
     let correctAnswer = null;
     switch (operation) {
       case '+':
-        correctAnswer = num1 + num2;
+        correctAnswer = String(num1 + num2);
         return [question, correctAnswer];
       case '-':
-        correctAnswer = num1 - num2;
+        correctAnswer = String(num1 - num2);
         return [question, correctAnswer];
       default:
-        correctAnswer = num1 * num2;
+        correctAnswer = String(num1 * num2);
         return [question, correctAnswer];
     }
   };
