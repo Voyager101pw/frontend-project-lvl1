@@ -1,14 +1,13 @@
 import readlineSync from 'readline-sync';
 
-export const startQuiz = (settings) => {
-  const { gameDescription, qa } = settings;
-
+export default (gameDescription, generationQA, numberOfQuestions = 3) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\n${gameDescription}`);
 
-  // eslint-disable-next-line no-restricted-syntax
-  for (const [question, correctAnswer] of qa) {
+  for (let i = 0; i < numberOfQuestions; i += 1) {
+    const [question, correctAnswer] = generationQA();
+
     console.log(`Question: ${question}`);
     const userAnswer = Number(readlineSync.question('Your answer: '));
 
@@ -21,5 +20,3 @@ export const startQuiz = (settings) => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
-
-export const getRandomNumber = (min, max) => Math.round(Math.random() * (max - min)) + min;

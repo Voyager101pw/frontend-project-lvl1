@@ -1,23 +1,25 @@
-import { startQuiz, getRandomNumber } from '../index.js';
+import startQuiz from '../index.js';
+import getRandomNumber from '../getRandomNumber.js';
 
 export default () => {
   const generationQA = () => {
     const operation = ['+', '-', '*'][getRandomNumber(0, 2)];
     const [num1, num2] = [getRandomNumber(0, 10), getRandomNumber(0, 10)];
-
+    const question = `${num1} ${operation} ${num2}`;
+    let correctAnswer = null;
     switch (operation) {
       case '+':
-        return [`${num1} + ${num2}`, num1 + num2];
+        correctAnswer = num1 + num2;
+        return [question, correctAnswer];
       case '-':
-        return [`${num1} - ${num2}`, num1 - num2];
+        correctAnswer = num1 - num2;
+        return [question, correctAnswer];
       default:
-        return [`${num1} * ${num2}`, num1 * num2];
+        correctAnswer = num1 * num2;
+        return [question, correctAnswer];
     }
   };
 
-  const settingQuiz = {
-    gameDescription: 'What is the result of the expression?',
-    qa: [generationQA(), generationQA(), generationQA()],
-  };
-  startQuiz(settingQuiz);
+  const gameDescription = 'What is the result of the expression?';
+  startQuiz(gameDescription, generationQA);
 };
