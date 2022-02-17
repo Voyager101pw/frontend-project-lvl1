@@ -16,4 +16,5 @@ https://asciinema.org/a/Noak6ySDyBWMfyMSNh3sdvSWK (brain-even)
 https://asciinema.org/a/FXzTX3qOyH1ErXWlKNbGzZ9Do (brain-calc)
 https://asciinema.org/a/9tU7txPY3DxxgBf07CcaSZwqh (brain-gcd)
 https://asciinema.org/a/JoKi1vTyJ47kXppY9gwFzN7jn (brain-progression)
+https://asciinema.org/a/wtEMGO1U8q0MLSwJVgpxhwaGV (brain-prime)
 ```
