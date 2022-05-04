@@ -10,11 +10,22 @@ make install
 ```
 
 ## Asciinema records
+### Brain-even
 
-```sh
-https://asciinema.org/a/Noak6ySDyBWMfyMSNh3sdvSWK (brain-even)
-https://asciinema.org/a/FXzTX3qOyH1ErXWlKNbGzZ9Do (brain-calc)
-https://asciinema.org/a/9tU7txPY3DxxgBf07CcaSZwqh (brain-gcd)
-https://asciinema.org/a/JoKi1vTyJ47kXppY9gwFzN7jn (brain-progression)
-https://asciinema.org/a/wtEMGO1U8q0MLSwJVgpxhwaGV (brain-prime)
-```
+[![asciicast](https://asciinema.org/a/Noak6ySDyBWMfyMSNh3sdvSWK.svg)](https://asciinema.org/a/Noak6ySDyBWMfyMSNh3sdvSWK)
+
+
+### Brain-calc
+[![asciicast](https://asciinema.org/a/FXzTX3qOyH1ErXWlKNbGzZ9Do.svg)](https://asciinema.org/a/FXzTX3qOyH1ErXWlKNbGzZ9Do)
+
+
+### Brain-gcd
+[![asciicast](https://asciinema.org/a/9tU7txPY3DxxgBf07CcaSZwqh.svg)](https://asciinema.org/a/9tU7txPY3DxxgBf07CcaSZwqh)
+
+
+### Brain-progression
+[![asciicast](https://asciinema.org/a/JoKi1vTyJ47kXppY9gwFzN7jn.svg)](https://asciinema.org/a/JoKi1vTyJ47kXppY9gwFzN7jn)
+
+
+### Brain-prime
+[![asciicast](https://asciinema.org/a/wtEMGO1U8q0MLSwJVgpxhwaGV.svg)](https://asciinema.org/a/wtEMGO1U8q0MLSwJVgpxhwaGV)
